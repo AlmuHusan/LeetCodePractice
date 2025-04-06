@@ -43,10 +43,7 @@ class MergedSortArray {
     }
 
     public static void main(String[] args) {
-        // Create an instance of MergedSortArray
         MergedSortArray mergedSortArray = new MergedSortArray();
-
-        // Call the merge method using the instance
         mergedSortArray.merge(new int[]{1,2,3,0,0,0},3, new int[]{2,5,6}, 3);
     }
 }
